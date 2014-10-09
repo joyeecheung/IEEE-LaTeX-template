@@ -1,0 +1,173 @@
+%--------------------------------------------------------------------------------------------------------------------------------------------------
+%\documentclass[letterpaper, 10 pt, conference]{ieeeconf}  % Comment this line out
+                                                           % if you need a4paper
+\documentclass[a4paper, 10pt, conference]{ieeeconf}        % Use this line for a4
+                                                           % paper
+%--------------------------------------------------------------------------------------------------------------------------------------------------
+
+\usepackage{lipsum}
+%---------------------------------------------- LOCALLY USED PACKAGES ------------------------------------------------------%
+% More packages can be found on http:\\www.ctan.org. They can be automatically be downloaded using MikTek's Package Manager.
+%---------Figure Packages-------------------------------
+\usepackage{graphicx}                       % For figures
+\usepackage{stfloats}
+\usepackage[tight,footnotesize]{subfigure}  % Create subfigures, ie 1A, 1B
+%\usepackage{epsfig} % for postscript graphics files
+
+%---------Math Packages---------------------------------
+\usepackage{amssymb,amsmath}
+%\usepackage{amslatex}%
+\usepackage{textcomp}
+\usepackage{mdwmath}
+\usepackage{mdwtab}
+\usepackage{eqparbox}
+%---------Table Packages--------------------------------
+\usepackage{rotating}                       % Used to rotate tables
+\usepackage{array}                          % Fixed column widths for tables
+%---------Algorithm Packages----------------------------
+\usepackage{listings}                       % Source code
+\usepackage{algorithm}                      % Pseudo Code
+\usepackage[noend]{algpseudocode}
+
+\usepackage{hyperref}
+
+% New Commands
+\setlength{\parskip}{1pt}                   % Changes the space between paragraphs.
+\newcommand{\squeezeup}{\vspace{-2.5mm}}    % changes space after figures. Use \squeezup to use.
+%------------------------------------------------------------------------------------------------------------------
+%\renewcommand{\arraystretch}{0.95} % Table Row Spacing. Changes height of tables.
+\setlength{\parskip}{1pt}           % Changes the space between paragraphs.
+%\parindent - the size of the paragraph indent
+%\baselineskip - vertical distance between lines.
+%\parskip - the extra space between paragraphs.
+%\textwidth - the width of a line of text in the local environment (e.g., the lines are commonly narrower in the abstract than in the normal text).
+%\textheight - the height of the text on the page.
+%--------------------------------------------------------------------------------------------------------------------------------------------------
+\title{\LARGE \bf Title Here.}
+\author{ \parbox{3 in}{ \centering Juan Rojas*
+          Vision and Manipulation Group\\
+          Intelligent Systems Research Institute\\
+          National Institute of Advanced Industrial Science and Technology\\
+          Tsukuba, Ibaraki, 305-8568, Japan
+          {\tt rojas@aist.go.jp}}
+          \hspace*{ 0.5 in}
+	      \parbox{3 in}{ \centering Kensuke Harada
+	       Vision and Manipulation Group\\
+	       Intelligent Systems Research Institute\\
+	       National Institute of Advanced Industrial Science and Technology\\
+	       Tsukuba, Ibaraki, 305-8568, Japan\\
+	      {\tt kensuke.harada@aist.go.jp}}
+} 
+\begin{document}
+
+\maketitle
+\thispagestyle{empty}
+\pagestyle{empty}
+
+%--------------------------------------------------------------------------------------------------------------------------------------------------
+\begin{abstract}
+%--------------------------------------------------------------------------------------------------------------------------------------------------
+% If useful, and where word limit allows, include:
+%   - One or two sentences of background information (placed at the beginning)
+% Statement of:
+%   - The question asked (present verb tense)
+%   - What was done to answer the question (past verb tense) - research approach, population studies, independent and dependent variables
+%   - Findings that answer the question (past verb tense) - the most important results and evidence (data) presented in a logical order.
+%   - The answer to the question (present verb tense)
+% An implication or a speculation based on the answer (present verb tense, placed at the end)
+%--------------------------------------------------------------------------------------------------------------------------------------------------
+
+\lipsum[2-3]
+\end{abstract}
+%--------------------------------------------------------------------------------------------------------------------------------------------------
+
+%--------------------------------------------------------------------------------------------------------------------------------------------------
+\section{INTRODUCTION}
+%--------------------------------------------------------------------------------------------------------------------------------------------------
+% Background to the topic (past verb tense)
+%   -	What is known or believed about the topic
+%   -	What is still unknown or problematic
+%   -	Findings of relevant studies (past verb tense)
+%   -	Importance of the topic
+%
+% Statement of the research question
+%   -	Several ways can be used to signal the research question , e.g.,
+%   -	"To determine whether ¡­¡­¡­"
+%   -	"The purpose of this study was to ¡­¡­."
+%   -	This study tested the hypothesis that ¡­¡­"
+%   -	"This study was undertaken to ¡­¡­"
+%
+% Approach taken to answer the question (past verb tense)
+% Results and answer to the way in which the problem statement was addressed (present tense)
+%--------------------------------------------------------------------------------------------------------------------------------------------------
+\section{Methods}
+%--------------------------------------------------------------------------------------------------------------------------------------------------
+\lipsum[3]\cite{1990ICRA-Simon-SelfTuningRobotPrimitivesSnapFit}
+% Intro
+
+%--------------------------------------------------------------------------------------------------------------------------------------------------
+\subsection{Sub Method}
+%--------------------------------------------------------------------------------------------------------------------------------------------------
+\lipsum[2-3]
+%--------------------------------------------------------------------------------------------------------------------------------------------------
+\subsubsection{Subsub Method}
+%--------------------------------------------------------------------------------------------------------------------------------------------------
+
+\lipsum[3]
+%--------------------------------------------------------------------------------------------------------------------------------------------------
+\section{Experiments}\label{sec:Experiments}
+%--------------------------------------------------------------------------------------------------------------------------------------------------
+% General Introduction
+
+%--------------------------------------------------------------------------------------------------------------------------------------------------
+\subsubsection{Testbed Description}
+%--------------------------------------------------------------------------------------------------------------------------------------------------
+\lipsum[2-3]
+%--------------------------------------------------------------------------------------------------------------------------------------------------
+\subsubsection{Experimental Details} \label{subsec:Experimental Details}
+%--------------------------------------------------------------------------------------------------------------------------------------------------
+
+%--------------------------------------------------------------------------------------------------------------------------------------------------
+\subsubsection{Performance Metrics} \label{subsec:Performance Metrics}
+%--------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+%--------------------------------------------------------------------------------------------------------------------------------------------------
+\subsection{Experiment 1: HP3JC-Push, ISAC-Hold}\label{sec:Exp1}
+%--------------------------------------------------------------------------------------------------------------------------------------------------
+% Intro to the experiment
+
+%--------------------------------------------------------------------------------------------------------------------------------------------------
+\subsection{Results}\label{subsec:Results}
+%--------------------------------------------------------------------------------------------------------------------------------------------------
+% Intro to results
+%--------------------------------------------------------------------------------------------------------------------------------------------------
+\subsubsection{Result 1}
+%--------------------------------------------------------------------------------------------------------------------------------------------------
+
+%--------------------------------------------------------------------------------------------------------------------------------------------------
+\section{DISCUSSION} \label{sec:Discussion}
+%--------------------------------------------------------------------------------------------------------------------------------------------------
+%1.	Answers to the question(s) posed in the introduction together with any accompanying support, explanation and defense of the answers (present verb tense) with reference to published literature. % Summarize your evidence for each conclusion (i.e. don't assume anything).
+%2.	Explanations of any results that do not support the answers.
+%3.	Indication of the originality/uniqueness of the work
+%4.	Explanations of:
+%-	How the findings concur with those of others
+%-	Any discrepancies of the results with those of others
+%-	Unexpected findings
+%-	The limitations of the study which may affect the study validity or generalisability of the study findings.
+%5.	Indication of the importance of the work e.g. clinical significance
+%6.	Recommendations for further research
+%--------------------------------------------------------------------------------------------------------------------------------------------------
+\section{CONCLUSION} \label{sec:Conclusion}
+
+\lipsum[2-3]\cite{1982AI-Brooks-SymbolicErrorAnalysisBotPlanning}
+%--------------------------------------------------------------------------------------------------------------------------------------------------
+% Concluding Thoughts
+% Brief statement of the major findings and implications of the study
+%------------------------------------------------------------------------------------------------------------------
+%% BIBLIOGRAPHY
+%------------------------------------------------------------------------------------------------------------------
+\bibliographystyle{IEEEtran}
+\bibliography{xbib}
+\end{document}
